@@ -357,8 +357,11 @@ f f3ef592 zancun3
 
 步骤如下：
 
+- git clone url
 - git add -A
 - git commit -m "message"
+- git pull 
 - git push --rebase (或者 git fetch + git rebase)
+
 - 解决冲突 git add 冲突文件 git rebase –continue git push 其中，3、4、5点，如果没遇到冲突就不用进行，直接push上去。
 - 当遇到冲突时，git会提示patch failed，并要我们解决问题了再执行git rebase --continue
